@@ -19,7 +19,7 @@ public class Hooks {
 
     // The website URL is automatically navigated to before each scenario tagged with @complete
     @Before("@complete")
-    public void openWebSite() throws Throwable {
+    public void openWebSite() {
         open(env.config.getString("base-url"));
     }
 

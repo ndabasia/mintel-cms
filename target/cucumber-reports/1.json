@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5704486478,
+              "duration": 5508011939,
               "status": "passed"
             },
             "match": {
@@ -17,11 +17,11 @@
         "line": 5,
         "name": "Add a comment to a BCPH insight",
         "description": "",
-        "id": "homepage;add-a-comment-to-a-bcph-insight",
+        "id": "testing-comment-functionality;add-a-comment-to-a-bcph-insight",
         "after": [
           {
             "result": {
-              "duration": 1999856641,
+              "duration": 2000622507,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4579736183,
+              "duration": 3848913196,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 6100444416,
+              "duration": 6432015845,
               "status": "passed"
             },
             "line": 7,
@@ -58,21 +58,57 @@
           },
           {
             "result": {
-              "duration": 6481554378,
+              "duration": 4352249300,
               "status": "passed"
             },
             "line": 8,
-            "name": "I choose Client Deliverables as content type",
+            "name": "I choose Beauty Personal Care Household (BPCH) as content type",
             "match": {
               "arguments": [
                 {
-                  "val": "Client Deliverables",
+                  "val": "Beauty Personal Care Household (BPCH)",
                   "offset": 9
                 }
               ],
               "location": "StepDefs.select_content_type(String)"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3887189857,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select an insight to add a comment to",
+            "match": {
+              "location": "StepDefs.select_insight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2565176691,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I add a comment",
+            "match": {
+              "location": "StepDefs.add_comment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1804597927,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the comment is saved",
+            "match": {
+              "location": "StepDefs.check_comment()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -83,11 +119,11 @@
         ]
       }
     ],
-    "name": "Homepage",
+    "name": "Testing comment functionality",
     "description": "",
-    "id": "homepage",
+    "id": "testing-comment-functionality",
     "keyword": "Feature",
-    "uri": "features/homepage.feature",
+    "uri": "features/comments.feature",
     "tags": [
       {
         "line": 1,

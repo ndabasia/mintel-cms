@@ -888,3 +888,1014 @@ Session ID: 1c5103fcb246b2a6e3bce20960817370
 2018-11-23 15:49:21 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
 2018-11-23 15:49:21 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
 2018-11-23 15:49:21 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-23 16:21:08 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-23 16:21:08 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-23 16:21:16 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-23 16:21:16 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-23 16:21:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-23 16:21:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-23 16:21:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-23 16:21:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:48:38 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 10:48:38 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 10:48:47 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:48:47 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:48:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:48:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:48:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:48:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:52:42 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 10:52:42 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 10:52:49 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:52:49 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:52:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:52:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:52:57 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 10:55:14 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 10:55:14 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 10:55:23 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:55:23 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:56:29 ERROR AttachScreenshot:28 - org.apache.http.conn.HttpHostConnectException: Connect to localhost:6533 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:6533 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)
+	at io.magentys.cinnamon.webdriver.Screenshot.getScreenshotAs(Screenshot.java:39)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:23)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:17)
+	at io.magentys.cinnamon.webdriver.EventHandlingWebDriverContainer.takeScreenshot(EventHandlingWebDriverContainer.java:61)
+	at io.magentys.cinnamon.webdriver.events.handlers.AttachScreenshot.handleEvent(AttachScreenshot.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at io.magentys.cinnamon.cucumber.CucumberAspect.afterAddStepToCounterAndResult(CucumberAspect.java:126)
+	at cucumber.runtime.Runtime.addStepToCounterAndResult(Runtime.java:324)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:308)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:6533 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:139)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:87)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	... 50 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 63 more
+2018-11-26 10:56:33 ERROR EventHandlingWebDriverContainer:85 - org.apache.http.conn.HttpHostConnectException: Connect to localhost:6533 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:6533 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
+	at io.magentys.cinnamon.webdriver.EventHandlingWebDriverContainer.quitWebDriver(EventHandlingWebDriverContainer.java:82)
+	at io.magentys.cinnamon.webdriver.events.handlers.QuitBrowserSession.handleEvent(QuitBrowserSession.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at io.magentys.cinnamon.cucumber.CucumberAspect.afterDisposeBackendWorlds(CucumberAspect.java:136)
+	at cucumber.runtime.Runtime.disposeBackendWorlds(Runtime.java:153)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:48)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:6533 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:139)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:87)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 57 more
+2018-11-26 10:56:48 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 10:56:48 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 10:56:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:56:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:57:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 10:57:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:05:15 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:05:15 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:05:22 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:05:22 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:05:32 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:05:32 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:05:33 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:05:33 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:08:50 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:08:50 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:08:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:08:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:09:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:09:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:09:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:09:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:09:35 ERROR AttachScreenshot:28 - chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.03 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58707}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7), userDataDir=C:\Users\NAYAND~1\AppData\Local\Temp\scoped_dir6608_27271}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c4d38f79d4df9b58622e0f84e827d03b
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.03 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58707}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7), userDataDir=C:\Users\NAYAND~1\AppData\Local\Temp\scoped_dir6608_27271}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c4d38f79d4df9b58622e0f84e827d03b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)
+	at io.magentys.cinnamon.webdriver.Screenshot.getScreenshotAs(Screenshot.java:39)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:23)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:17)
+	at io.magentys.cinnamon.webdriver.EventHandlingWebDriverContainer.takeScreenshot(EventHandlingWebDriverContainer.java:61)
+	at io.magentys.cinnamon.webdriver.events.handlers.AttachScreenshot.handleEvent(AttachScreenshot.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at io.magentys.cinnamon.cucumber.CucumberAspect.afterAddStepToCounterAndResult(CucumberAspect.java:126)
+	at cucumber.runtime.Runtime.addStepToCounterAndResult(Runtime.java:324)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:308)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+2018-11-26 11:10:08 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:10:08 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:10:16 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:10:16 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:10:26 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:10:26 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:10:26 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:10:26 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:11:43 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:11:43 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:11:50 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:11:50 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:11:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:11:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:11:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:11:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:15:30 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:15:30 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:15:37 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:15:37 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:15:45 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:15:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:15:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:15:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:18:18 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:18:18 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:18:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:18:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:18:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:18:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:18:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:18:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:25:45 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:25:45 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:25:52 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:25:52 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:26:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:26:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:26:03 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:26:03 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:30:50 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:30:50 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:30:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:30:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:31:07 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:31:07 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:31:07 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:31:07 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:35:25 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:35:25 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:35:32 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:35:32 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:35:41 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:35:41 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:35:41 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:35:41 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:36:13 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:36:13 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:36:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:36:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:36:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:36:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:36:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:36:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:38:46 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:38:46 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:38:53 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:38:53 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:39:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:39:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:39:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:39:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:42:11 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:42:11 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:42:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:42:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:42:28 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:42:28 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:42:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:42:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:45:19 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:45:19 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:45:26 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:45:26 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:45:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:45:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:45:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:45:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:46:12 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:46:12 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:46:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:46:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:46:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:46:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:46:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:46:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:47:10 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:47:10 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:47:17 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:47:17 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:47:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:47:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:47:26 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:47:26 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:47:49 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:47:49 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:47:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:47:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:48:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:48:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:48:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:48:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:49:50 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:49:50 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:49:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:49:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:50:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:50:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:50:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:50:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:54:13 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:54:13 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:54:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:54:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:54:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:54:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:54:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:54:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:54:48 ERROR AttachScreenshot:28 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60799}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7), userDataDir=C:\Users\NAYAND~1\AppData\Local\Temp\scoped_dir8092_14178}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9e9f7ce01b902f367fbf811270472c1
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60799}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7), userDataDir=C:\Users\NAYAND~1\AppData\Local\Temp\scoped_dir8092_14178}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9e9f7ce01b902f367fbf811270472c1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)
+	at io.magentys.cinnamon.webdriver.Screenshot.getScreenshotAs(Screenshot.java:39)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:23)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:17)
+	at io.magentys.cinnamon.webdriver.EventHandlingWebDriverContainer.takeScreenshot(EventHandlingWebDriverContainer.java:61)
+	at io.magentys.cinnamon.webdriver.events.handlers.AttachScreenshot.handleEvent(AttachScreenshot.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at io.magentys.cinnamon.cucumber.CucumberAspect.afterAddStepToCounterAndResult(CucumberAspect.java:126)
+	at cucumber.runtime.Runtime.addStepToCounterAndResult(Runtime.java:324)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:308)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+2018-11-26 11:55:17 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:55:17 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:55:44 ERROR AttachScreenshot:28 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60931}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7), userDataDir=C:\Users\NAYAND~1\AppData\Local\Temp\scoped_dir10152_31469}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cd34f5557ff424704e464eecccee5c16
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60931}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7), userDataDir=C:\Users\NAYAND~1\AppData\Local\Temp\scoped_dir10152_31469}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cd34f5557ff424704e464eecccee5c16
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)
+	at io.magentys.cinnamon.webdriver.Screenshot.getScreenshotAs(Screenshot.java:39)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:23)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:17)
+	at io.magentys.cinnamon.webdriver.EventHandlingWebDriverContainer.takeScreenshot(EventHandlingWebDriverContainer.java:61)
+	at io.magentys.cinnamon.webdriver.events.handlers.AttachScreenshot.handleEvent(AttachScreenshot.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at io.magentys.cinnamon.cucumber.CucumberAspect.afterAddStepToCounterAndResult(CucumberAspect.java:126)
+	at cucumber.runtime.Runtime.addStepToCounterAndResult(Runtime.java:324)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:308)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+2018-11-26 11:55:58 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 11:55:58 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 11:56:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:56:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:56:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:56:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:56:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 11:56:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:09:11 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:09:11 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:09:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:09:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:09:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:09:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:09:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:09:30 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:17:46 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:17:46 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:17:54 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:17:54 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:18:03 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:18:03 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:18:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:18:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:20:28 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:20:28 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:20:36 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:20:36 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:20:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:20:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:20:47 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:20:47 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:20:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:20:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:20:57 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 14:21:38 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:21:38 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:21:45 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:21:45 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:21:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:21:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:21:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:21:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:22:05 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:22:05 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:27:31 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:27:31 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:27:38 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:27:38 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:27:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:27:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:27:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:27:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:27:55 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:27:55 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:33:08 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:33:08 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:33:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:33:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:33:24 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:33:24 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:33:24 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:33:24 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:33:32 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:33:32 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:34:59 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:34:59 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:35:07 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:35:07 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:35:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:35:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:35:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:35:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:35:23 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:35:23 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:37:10 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:37:10 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:37:16 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:37:16 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:37:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:37:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:37:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:37:25 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:37:33 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:37:33 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:40:47 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:40:47 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:40:53 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:40:53 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:41:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:41:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:41:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:41:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:41:11 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:41:11 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:43:25 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:43:25 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:43:32 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:43:32 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:43:41 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:43:41 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:43:41 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:43:41 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:43:50 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:43:50 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:45:45 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:45:45 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:45:51 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:45:51 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:46:00 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:46:00 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:46:00 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:46:00 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:46:10 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:46:10 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:46:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:46:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:52:49 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 14:52:49 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 14:52:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:52:56 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:53:05 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:53:05 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:53:05 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:53:05 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:53:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 14:53:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:28:02 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 15:28:02 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 15:28:09 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:28:09 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:28:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:28:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:28:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:28:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:28:28 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:28:28 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:34:58 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 15:34:58 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 15:35:05 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:35:05 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:35:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:35:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:35:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:35:15 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:35:24 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:35:24 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:35:40 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:35:40 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:15 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 15:37:15 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 15:37:22 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:22 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:31 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:31 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:31 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:31 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:40 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:40 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:51 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:37:51 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:06 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 15:41:06 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 15:41:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:23 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:23 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:23 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:23 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:34 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:34 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:41:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:46:33 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 15:46:33 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 15:46:40 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:46:40 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:46:49 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:46:49 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:46:49 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:46:49 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:46:58 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:46:58 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:47:22 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 15:47:22 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 15:47:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:47:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:47:38 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:47:38 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:47:38 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:47:38 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:47:48 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:47:48 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:49:30 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 15:49:30 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 15:49:37 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:49:37 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:49:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:49:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:49:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:49:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:49:55 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:49:55 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:51:47 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 15:51:47 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 15:51:54 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:51:54 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:52:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:52:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:52:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:52:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:52:14 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:52:14 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:52:16 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:52:16 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:10 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 15:55:10 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 15:55:17 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:17 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:27 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:27 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:27 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:27 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:36 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:36 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:38 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 15:55:38 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:00:47 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 16:00:47 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 16:00:54 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:00:54 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:01:03 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:01:03 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:01:03 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:01:03 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:01:12 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:01:12 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:01:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:01:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:01:13 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 16:22:43 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 16:22:43 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 16:22:50 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:22:50 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:22:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:22:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:22:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:22:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:23:09 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:23:09 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:23:10 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:23:10 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:23:10 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 16:24:20 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 16:24:20 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 16:24:27 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:27 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:35 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:36 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:36 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:45 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:45 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:46 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:46 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 16:24:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:24:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:26:52 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 16:26:52 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 16:26:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:26:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:08 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:08 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:08 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:08 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:17 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:17 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:18 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:18 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:18 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 16:27:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:27:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:28:36 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 16:28:36 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 16:28:43 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:28:43 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:28:52 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:28:52 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:28:52 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:28:52 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:29:00 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:29:00 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:29:01 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:29:01 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:29:01 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 16:29:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:29:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:29:38 ERROR AttachScreenshot:28 - chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.04 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64532}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7), userDataDir=C:\Users\NAYAND~1\AppData\Local\Temp\scoped_dir10468_14437}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60b36116f626d1a233592dc8445a1a59
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.04 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LON-10-L-315', ip: '10.0.3.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64532}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7), userDataDir=C:\Users\NAYAND~1\AppData\Local\Temp\scoped_dir10468_14437}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60b36116f626d1a233592dc8445a1a59
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)
+	at io.magentys.cinnamon.webdriver.Screenshot.getScreenshotAs(Screenshot.java:39)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:23)
+	at io.magentys.cinnamon.webdriver.Screenshot.<init>(Screenshot.java:17)
+	at io.magentys.cinnamon.webdriver.EventHandlingWebDriverContainer.takeScreenshot(EventHandlingWebDriverContainer.java:61)
+	at io.magentys.cinnamon.webdriver.events.handlers.AttachScreenshot.handleEvent(AttachScreenshot.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at io.magentys.cinnamon.cucumber.CucumberAspect.afterAddStepToCounterAndResult(CucumberAspect.java:126)
+	at cucumber.runtime.Runtime.addStepToCounterAndResult(Runtime.java:324)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:308)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+2018-11-26 16:29:57 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 16:29:57 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 16:30:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:04 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:13 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:22 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:22 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:24 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:24 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:24 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 16:30:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:30:29 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:32 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 16:32:32 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 16:32:39 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:39 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:48 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:48 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:48 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:48 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:59 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 16:32:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:32:59 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:33:10 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:33:10 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:34:55 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 16:34:55 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 16:35:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:02 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:11 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:11 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:11 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:11 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:19 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:20 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:21 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:35:21 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:44:41 DEBUG GuiceModuleAggregator$Builder:69 - Modules [[[io.magentys.cinnamon.guice.WebDriverModule]]]
+2018-11-26 16:44:41 DEBUG GuiceModuleAggregator$Builder:70 - Overrides modules []
+2018-11-26 16:44:47 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:44:47 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:44:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:44:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:44:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:44:57 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:45:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:45:06 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:45:07 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:45:07 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:45:07 WARN  ScrollBeforeClickAction:33 - Unable to click using element.click(). Performing a click workaround for Chrome.
+2018-11-26 16:45:08 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:45:08 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:45:09 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1
+2018-11-26 16:45:09 DEBUG EventHandlingWebDriverContainer:66 - Updating window count to 1

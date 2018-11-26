@@ -17,7 +17,7 @@ public class HomePage {
     public PageElement elementSiteType;
     @FindBy(xpath = "//*[contains(@id, 'default-toolbar')]/div/form/div/div[1]/div/div[2]/div[1]")
     public PageElement contentSite;
-    @FindBy(id = "page_x002e_component-1-1_x002e_user_x007e_ndabasia_x0040_mintel_x002e_com_x007e_dashboard_x0023_default-reports")
+    @FindBy(xpath = "//*[contains(@id, 'default-reports')]")
     public PageElement hubTable;
 
     public HomePage dashboardTitle() {

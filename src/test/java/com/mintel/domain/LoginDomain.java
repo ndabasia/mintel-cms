@@ -8,10 +8,10 @@ public class LoginDomain {
     @Inject
     private LoginPage loginPage;
 
-    public LoginDomain doLogin(String username, String password) {
+    public LoginDomain doLogin() {
         loginPage
-                .enterUsername(username)
-                .enterPassword(password)
+                .enterUsername()
+                .enterPassword()
                 .clickLoginLink();
         return this;
     }
