@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5508011939,
+              "duration": 5628266557,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Add a comment to a BCPH insight",
+        "line": 29,
+        "name": "Delete a comment to a BCPH insight",
         "description": "",
-        "id": "testing-comment-functionality;add-a-comment-to-a-bcph-insight",
+        "id": "testing-comment-functionality;delete-a-comment-to-a-bcph-insight;;2",
         "after": [
           {
             "result": {
-              "duration": 2000622507,
+              "duration": 2000171519,
               "status": "passed"
             },
             "match": {
@@ -30,14 +30,14 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3848913196,
+              "duration": 6793981616,
               "status": "passed"
             },
-            "line": 6,
+            "line": 19,
             "name": "I have logged in as the correct user",
             "match": {
               "location": "StepDefs.login_step()"
@@ -46,10 +46,10 @@
           },
           {
             "result": {
-              "duration": 6432015845,
+              "duration": 6241467954,
               "status": "passed"
             },
-            "line": 7,
+            "line": 20,
             "name": "I choose Site Type as Contents Hub",
             "match": {
               "location": "StepDefs.site_navigation()"
@@ -58,28 +58,31 @@
           },
           {
             "result": {
-              "duration": 4352249300,
+              "duration": 22420858094,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I choose Beauty Personal Care Household (BPCH) as content type",
+            "line": 21,
+            "name": "I choose Japan Reports as content type",
             "match": {
               "arguments": [
                 {
-                  "val": "Beauty Personal Care Household (BPCH)",
+                  "val": "Japan Reports",
                   "offset": 9
                 }
               ],
               "location": "StepDefs.select_content_type(String)"
             },
+            "matchedColumns": [
+              0
+            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3887189857,
+              "duration": 72766822172,
               "status": "passed"
             },
-            "line": 9,
+            "line": 22,
             "name": "I select an insight to add a comment to",
             "match": {
               "location": "StepDefs.select_insight()"
@@ -88,10 +91,10 @@
           },
           {
             "result": {
-              "duration": 2565176691,
+              "duration": 2532529039,
               "status": "passed"
             },
-            "line": 10,
+            "line": 23,
             "name": "I add a comment",
             "match": {
               "location": "StepDefs.add_comment()"
@@ -100,21 +103,41 @@
           },
           {
             "result": {
-              "duration": 1804597927,
+              "duration": 9021182702,
               "status": "passed"
             },
-            "line": 11,
-            "name": "the comment is saved",
+            "line": 24,
+            "name": "I delete a comment",
             "match": {
-              "location": "StepDefs.check_comment()"
+              "location": "StepDefs.delete_comment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1554527954,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the comment is deleted",
+            "match": {
+              "location": "StepDefs.check_comment_deleted()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 4,
+            "line": 17,
             "name": "@1"
+          },
+          {
+            "line": 1,
+            "name": "@comments"
+          },
+          {
+            "line": 1,
+            "name": "@complete"
           }
         ]
       }
@@ -128,6 +151,10 @@
       {
         "line": 1,
         "name": "@complete"
+      },
+      {
+        "line": 1,
+        "name": "@comments"
       }
     ]
   }

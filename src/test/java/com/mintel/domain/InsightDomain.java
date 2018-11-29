@@ -14,9 +14,25 @@ public class InsightDomain {
         return this;
     }
 
-    public InsightDomain checkComment() {
+    public InsightDomain deleteComment() {
         insightPage
+//                .openComment()
+                .openCommentDropdown()
+                .deleteComment();
+        return this;
+    }
+
+    public InsightDomain checkCommentSaved() {
+        insightPage
+                .clickCommentsButton()
+//                .openComment()
                 .checkComment();
+        return this;
+    }
+
+    public InsightDomain checkCommentDeleted() {
+        insightPage
+                .checkCommentDeletion();
         return this;
     }
 }

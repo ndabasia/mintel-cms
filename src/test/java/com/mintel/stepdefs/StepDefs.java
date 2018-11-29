@@ -50,8 +50,18 @@ public class StepDefs {
         insightDomain.addComment();
     }
 
+    @And("^I delete a comment$")
+    public void delete_comment() {
+        insightDomain.deleteComment();
+    }
+
     @Then("^the comment is saved$")
-    public void check_comment() {
-        insightDomain.checkComment();
+    public void check_comment_saved() {
+        insightDomain.checkCommentSaved();
+    }
+
+    @Then("^the comment is deleted$")
+    public void check_comment_deleted() {
+        insightDomain.checkCommentDeleted();
     }
 }

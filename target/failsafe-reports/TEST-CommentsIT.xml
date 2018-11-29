@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CommentsIT" time="3.318" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="CommentsIT" time="3.311" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="cucumber.options" value="--tags @1"/>
@@ -67,11 +67,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given I have logged in as the correct user" classname="Scenario: Add a comment to a BCPH insight" time="0.001"/>
-  <testcase name="When I choose Site Type as Contents Hub" classname="Scenario: Add a comment to a BCPH insight" time="0"/>
-  <testcase name="And I choose Beauty Personal Care Household (BPCH) as content type" classname="Scenario: Add a comment to a BCPH insight" time="0"/>
-  <testcase name="And I select an insight to add a comment to" classname="Scenario: Add a comment to a BCPH insight" time="0"/>
-  <testcase name="And I add a comment" classname="Scenario: Add a comment to a BCPH insight" time="0"/>
-  <testcase name="Then the comment is saved" classname="Scenario: Add a comment to a BCPH insight" time="0"/>
-  <testcase name="Scenario: Add a comment to a BCPH insight" classname="Scenario: Add a comment to a BCPH insight" time="3.317"/>
+  <testcase name="Given I have logged in as the correct user" classname="| Japan Reports |" time="0.002"/>
+  <testcase name="When I choose Site Type as Contents Hub" classname="| Japan Reports |" time="0"/>
+  <testcase name="And I choose Japan Reports as content type" classname="| Japan Reports |" time="0"/>
+  <testcase name="And I select an insight to add a comment to" classname="| Japan Reports |" time="0"/>
+  <testcase name="And I add a comment" classname="| Japan Reports |" time="0"/>
+  <testcase name="And I delete a comment" classname="| Japan Reports |" time="0"/>
+  <testcase name="Then the comment is deleted" classname="| Japan Reports |" time="0"/>
+  <testcase name="| Japan Reports |" classname="| Japan Reports |" time="3.309"/>
 </testsuite>
